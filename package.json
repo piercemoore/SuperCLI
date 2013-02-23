@@ -1,0 +1,24 @@
+{
+  "name": "supercli",
+  "version": "0.1.0",
+  "description": "A lightweight library for Node.js that will help developers display nice, pretty, colored messages in a console windows.",
+  "main": "lib/supercli.js",
+  "directories" : {
+    "lib" : "./lib/"
+  },
+  "scripts" : {
+    "test" : "node ./test/supercli.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/piercemoore/SuperCLI.git"
+  },
+  "keywords": ["cli","log","console","output","format","color"],
+  "author": "Pierce Moore <pierce@piercemoore.com>",
+  "license": "BSD",
+  "readmeFilename": "readme.md",
+  "gitHead": "ea59dee6a5ce6d5a1078e207987327c5cd6121ec",
+  "dependencies" : {
+    "underscore" : "*"
+  }
+}
