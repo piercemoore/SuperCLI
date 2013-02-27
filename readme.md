@@ -135,4 +135,6 @@ Now, running a basic `scli.log("Your log message here");` command (assuming you 
 ````
 
 
-(Pierce Moore)[http://www.piercemoore.com]
+#### [Pierce Moore](http://www.piercemoore.com)  
+Email : **[Pierce@PierceMoore.com](mailto:pierce@piercemoore.com)**  
+Twitter : **[@kiapierce](https://twitter.com/kiapierce)**
