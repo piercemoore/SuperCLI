@@ -157,6 +157,8 @@ Is that seriously still not enough? YOU are a pain in the ass. Fine.
 
 > **Note:** The lowercase functions are regular text, the UPPERCASE functions are the bolded versions
 
+*IMPORTANT:* Unlike the standard calls, the direct `$` color functions only accept a **single string** as an argument. No objects, no arrays, none of it. Just one single thing that you can put in the center of a string. Sorry.
+
 ````
 scli.$.red("All this text will be red);
 scli.$.MAGENTA("All this text will be bolded magenta");
@@ -175,6 +177,38 @@ Cyan | `scli.$.cyan()` | `scli.$.CYAN()`
 White | `scli.$.white()` | `scli.$.WHITE()`
 
 
+Full API Reference
+---
+
+> All functions below assume that you have already required SuperCLI as `var scli = require('supercli');`
+
+Function | Parameters | Output Color | Purpose
+------|------|-------|-------
+`scli()` | Anything | Cyan | Standard log message
+`scli.log()` | Anything | Cyan | Standard log message
+`scli.lg()` | Anything | Cyan | Standard log message
+`scli.ok` | Anything | Green | Success message
+`scli.success()` | Anything | Green | Success message
+`scli.error()` | Anything | Red | Error message
+`scli.warn()` | Anything | Yellow | Warning message
+`scli.config.appName()` | `String`: New Name | -- | Sets application name used in output
+`scli.config.set()` | `Object`: New Settings | -- | Changes configuration object. See above!
+`scli.config.hideName()` | -- | -- | Removes application name from future console output
+`scli.config.showName()` | -- | -- | Shows application name in future console output
+`scli.$.red()` | `String`: Message | Light Red | Log message without frills in one color
+`scli.$.RED()` | `String`: Message | Bright/Bold Red | Log message without frills in one color
+`scli.$.green()` | `String`: Message | Light Green | Log message without frills in one color
+`scli.$.GREEN()` | `String`: Message | Bright/Bold Green | Log message without frills in one color
+`scli.$.yellow()` | `String`: Message | Light Yellow | Log message without frills in one color
+`scli.$.YELLOW()` | `String`: Message | Bright/Bold Yellow | Log message without frills in one color
+`scli.$.blue()` | `String`: Message | Light Blue | Log message without frills in one color
+`scli.$.BLUE()` | `String`: Message | Bright/Bold Blue | Log message without frills in one color
+`scli.$.magenta()` | `String`: Message | Light Magenta | Log message without frills in one color
+`scli.$.MAGENTA()` | `String`: Message | Bright/Bold Magenta | Log message without frills in one color
+`scli.$.cyan()` | `String`: Message | Light Cyan | Log message without frills in one color
+`scli.$.CYAN()` | `String`: Message | Bright/Bold Cyan | Log message without frills in one color
+`scli.$.white()` | `String`: Message | Light White | Log message without frills in one color
+`scli.$.WHITE()` | `String`: Message | Bright/Bold White | Log message without frills in one color
 
 
 #### [Pierce Moore](http://www.piercemoore.com)  
