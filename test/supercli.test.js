@@ -24,3 +24,34 @@ scli.success("I am one of multiple success messages!", "I am another of multiple
 
 scli.put("Application Error","error", "App error 1", "App error 2", { error : { name : "App 3" } });
 scli.put("App error 1","log", "App error 2", { error : { name : "App 3" } });
+
+scli.config.set({
+	messages : {
+		log : "LOGGY LOG!",
+		error : "You fucked up.",
+		success : "Shit went right!",
+		warning : "WATCH YO ASS FOO!",
+		ok : "Shit went right!"
+	}
+});
+
+scli.log("I should have a different log message");
+scli.error("I should be different as well");
+scli.success("It's all good here!");
+scli.ok("Also good here!");
+scli.warn("Warning message, ahoy!");
+
+scli.$.red("This text should be light red");
+scli.$.green("This text should be light green");
+scli.$.yellow("This text should be light yellow");
+scli.$.blue("This text should be light blue");
+scli.$.magenta("This text should be light magenta");
+scli.$.cyan("This text should be light cyan");
+scli.$.white("This text should be light white");
+scli.$.RED("This text should be bold red");
+scli.$.GREEN("This text should be bold green");
+scli.$.YELLOW("This text should be bold yellow");
+scli.$.BLUE("This text should be bold blue");
+scli.$.MAGENTA("This text should be bold magenta");
+scli.$.CYAN("This text should be bold cyan");
+scli.$.WHITE("This text should be bold white");
