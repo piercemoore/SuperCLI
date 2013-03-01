@@ -1,6 +1,6 @@
 {
   "name": "supercli",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "description": "A lightweight library for Node.js that will help developers display nice, pretty, colored messages in the console.",
   "main": "lib/supercli.js",
   "directories": {
