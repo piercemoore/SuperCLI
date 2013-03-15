@@ -1,9 +1,13 @@
-SuperCLI
+SuperCLI  [![Build Status](https://travis-ci.org/piercemoore/SuperCLI.png?branch=master)](https://travis-ci.org/piercemoore/SuperCLI)
+===
+A lightweight library for Node.js that will help developers display nice, pretty, colored messages in the console.
+
+Note for NPM Viewers: 
 ---
+For some reason, NPM has not implemented anything more than the most basic Markdown rendering engine for these readme files. As such, the API reference tables at the bottom of this readme are literally unusable. It's much better to view this readme on GitHub directly here: [GitHub Readme](https://github.com/piercemoore/SuperCLI)
 
-A lightweight library for Node.js that will help developers display nice, pretty, colored messages in a console windows.
-
-#### How to use it
+How to use it
+---
 
 1) Require it
 
@@ -160,7 +164,7 @@ Is that seriously still not enough? YOU are a pain in the ass. Fine.
 *IMPORTANT:* Unlike the standard calls, the direct `$` color functions only accept a **single string** as an argument. No objects, no arrays, none of it. Just one single thing that you can put in the center of a string. Sorry.
 
 ````
-scli.$.red("All this text will be red);
+scli.$.red("All this text will be red");
 scli.$.MAGENTA("All this text will be bolded magenta");
 ````
 
