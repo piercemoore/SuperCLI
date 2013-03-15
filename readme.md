@@ -1,4 +1,4 @@
-SuperCLI
+SuperCLI  [![Build Status](https://travis-ci.org/piercemoore/SuperCLI.png?branch=master)](https://travis-ci.org/piercemoore/SuperCLI)
 ===
 A lightweight library for Node.js that will help developers display nice, pretty, colored messages in the console.
 
