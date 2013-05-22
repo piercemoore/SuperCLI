@@ -212,5 +212,5 @@ Function | Parameters | Output Color | Purpose
 
 
 #### [Pierce Moore](http://www.piercemoore.com)  
-Email : **[Pierce@PierceMoore.com](mailto:pierce@piercemoore.com)**  
+Email : **[me@prex.io](mailto:me@prex.io)**  
 Twitter : **[@kiapierce](https://twitter.com/kiapierce)**
