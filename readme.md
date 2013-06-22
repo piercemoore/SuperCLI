@@ -2,7 +2,7 @@ THIS PROJECT HAS BEEN DEPRECATED AND MOVED TO [REX-SHELL](https://github.com/rex
 ===
 
 
-SuperCLI  [![Build Status](https://travis-ci.org/piercemoore/SuperCLI.png?branch=master)](https://travis-ci.org/piercemoore/SuperCLI)
+SuperCLI (DEPRECATED, RETIRED, DEAD, etc.)
 ===
 A lightweight library for Node.js that will help developers display nice, pretty, colored messages in the console.
 
