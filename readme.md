@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="http://i.imgur.com/9Mze1BM.png" />
+</p>
+
+
 THIS PROJECT HAS BEEN DEPRECATED AND MOVED TO [REX-SHELL](https://github.com/rex/rex-shell). ALL FUTURE DEVELOPMENT WILL BE ON [REX-SHELL](https://github.com/rex/rex-shell).
 ===
 
